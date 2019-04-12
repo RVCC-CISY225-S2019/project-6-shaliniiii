@@ -1,0 +1,42 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+fieldset {
+    width: auto;
+    height: auto;
+    border : solid 0.1em;
+    box-sizing: border-box;
+    }
+
+legend {
+    display: block;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 10em;  
+    border-color: #000000;
+}
+
+textarea {
+    width: auto;
+    height: auto;
+}
+
+textarea:focus {
+    background: rgb(202, 202, 202);
+  }
+
+input:focus{
+    background: rgb(202, 202, 202);
+}
+
+main,
+form,
+footer {
+    margin: 0 .5rem;
+}

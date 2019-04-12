@@ -2,291 +2,316 @@
 <html lang="en">
 
 <head>
-    <title>About Me</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/nav-style.css">
+	<title>About Me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/nav-style.css">
 </head>
 
 <body>
-    <!-- skip link -->
-    <a href="#main" class="skip">Skip to main</a>
-    <!-- start of header -->
-    <header id="header" class="header">
-        <nav class="navbar">
-            <span class="navbar-toggle" id="js-navbar-toggle">
-                <i id="symbol-toggle" class="fas fa-bars"></i>
-            </span>
-            <a href="#header" class="logo">
-                <div class="logo-container">
-                    <img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
-                    <h1 class="page-title">Web Dev I</h1>
-                </div>
-            </a>
-            <ul class="main-nav" id="js-menu">
-                <li>
-                    <a href="#main" class="nav-links">Main</a>
-                </li>
-                <li>
-                    <a href="#about-me" class="nav-links">About Me</a>
-                </li>
-                <li>
-                    <a href="#pictures" class="nav-links">My Photos</a>
-                </li>
-                <li>
-                    <a href="#story" class="nav-links">A Story</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-links">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- end of header -->
-    <!-- start of main content -->
-    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
-    <main id="main" tabindex="-1" class="main">
-        <!-- start of bio section -->
-        <section class="hero">
-            <div class="content">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/lk-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/lk-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/lk-small.jpg">
-                    <img class="profile" src="images/lk-xsmall.jpg" alt="This is a picture of me">
-                </picture>
-                <p class="my-name">Lyan Kent</p>
-                <p class="my-location">Branchburg, NJ</p>
-            </div>
-        </section>
-        <section id="about-me" class="about-me">
-            <div class="content">
-                <div class="about-content">
-                    <p class="iama">I want to be...</p>
-                    <p class="my-info">a web developer master!</p>
-                    <p class="iama">My favorite way to work is...</p>
-                    <p class="my-info">late at night with large headphones and lots of coffee.</p>
-                    <p class="iama">In my free time, I like to...</p>
-                    <p class="my-info">run through the park, read sci-fi novels, and redesign my personal site using
-                        whatever new tech I want to learn.</p>
-                </div>
-            </div>
-        </section>
-        <!-- end of bio section -->
-        <div class="back-to-top">
-            <a href="#">Back to Top</a>
-        </div>
-        <!-- start of photo gallery -->
-        <section id="pictures" class="gallery">
-            <h1 class="gallery-title">My Abstract Photo Gallery</h1>
-            <figure class="fig1">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-1a-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-1a-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-1a-small.jpg">
-                    <img src="images/fickle-1a-xsmall.jpg" alt="an abstract photo">
-                </picture>
-                <figcaption>Abstract Photo - Fickle Stream 1</figcaption>
-            </figure>
-            <hr>
-            <figure class="fig2">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-5-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-5-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-5-small.jpg">
-                    <img src="images/fickle-5-xsmall.jpg" alt="an abstract photo">
-                </picture>
-                <figcaption>Abstract Photo - Fickle Stream 5</figcaption>
-            </figure>
-            <hr>
-            <figure class="fig3">
-                <picture>
-                    <source media="(min-width: 1024px)" srcset="images/fickle-6-lrg.jpg">
-                    <source media="(min-width: 960px)" srcset="images/fickle-6-med.jpg">
-                    <source media="(min-width: 640px)" srcset="images/fickle-6-small.jpg">
-                    <img src="images/fickle-6-xsmall.jpg" alt="an abstract photo">
-                </picture>
-                <figcaption>Abstract Photo - Fickle Stream 6</figcaption>
-            </figure>
-        </section>
-        <!-- end of photo gallery -->
-        <div class="back-to-top">
-            <a href="#">Back to Top</a>
-        </div>
-        <hr class="mobile-first">
-        <!-- start of Sherlock Holmes story -->
-        <article id="story" class="story">
-            <h1>Sherlock Holmes</h1>
-            <p>I was very angry, for this was the third demand during the month. 'You shall not have a farthing from
-                me,' I cried, on which he bowed and left the room without another word.</p>
+	<!-- skip link -->
+	<a href="#main" class="skip">Skip to main</a>
+	<!-- start of header -->
+	<header id="header" class="header">
+		<nav class="navbar">
+			<span class="navbar-toggle" id="js-navbar-toggle">
+				<i id="symbol-toggle" class="fas fa-bars"></i>
+			</span>
+			<a href="#header" class="logo">
+				<div class="logo-container">
+					<img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
+					<h1 class="page-title">Web Dev I</h1>
+				</div>
+			</a>
+			<ul class="main-nav" id="js-menu">
+				<li>
+					<a href="#main" class="nav-links">Main</a>
+				</li>
+				<li>
+					<a href="#about-me" class="nav-links">About Me</a>
+				</li>
+				<li>
+					<a href="#pictures" class="nav-links">My Photos</a>
+				</li>
+				<li>
+					<a href="#story" class="nav-links">A Story</a>
+				</li>
+				<li>
+					<a href="#contact" class="nav-links">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<!-- end of header -->
+	<!-- start of main content -->
+	<!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
+	<main id="main" tabindex="-1" class="main">
+		<!-- start of bio section -->
+		<section class="hero">
+			<div class="content">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="images/shalini-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/shalini-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/shalini-small.jpg">
+					<img class="my-picture" src="images/shalini-xsmall.jpg" alt="This is a picture of me">
+				</picture>
+				<p class="my-name">Shalini Das Chaudhuri</p>
+				<p class="my-location">Somerset, NJ</p>
+			</div>
+		</section>
 
-            <p>When he was gone I unlocked my bureau, made sure that my treasure was safe, and locked it again. Then I
-                started to go round the house to see that all was secure--a duty which I usually leave to Mary but which
-                I thought it well to perform myself that night. As I came down the stairs I saw Mary herself at the side
-                window of the hall, which she closed and fastened as I approached.</p>
+		<section id="about-me" class="about-me">
+			<div class="content">
+				<div class="about-content">
+					<p class="iama">I want to be...</p>
+					<p class="my-info">a master of all trades!</p>
+					<p class="iama">My favorite way to work is...</p>
+					<p class="my-info">while listening to music, usually Santana.</p>
+					<p class="iama">In my free time, I like to...</p>
+					<p class="my-info">read, hang out with my friends, make art.</p>
+				</div>
+			</div>
+		</section>
+		<!-- end of bio section -->
+		<div class="back-to-top">
+			<a href="#">Back to Top</a>
+		</div>
+		<!-- start of photo gallery -->
+		<section id="pictures" class="gallery">
+			<h1 class="gallery-title">My Personal Photo Gallery</h1>
+			<figure class="fig1">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="images/window-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/window-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/window-small.jpg">
+					<img src="images/window-xsmall.jpg" alt="Window with see through curtains">
+				</picture>
+				<figcaption>A window looking out on a setting sun. I took this after reaching my AirBnB
+					when I took a road trip by myself.</figcaption>
+			</figure>
+			<hr>
+			<figure class="fig2">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="images/grapes-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/grapes-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/grapes-small.jpg">
+					<img src="images/grapes-xsmall.jpg" alt="Grapes in a bowl">
+				</picture>
+				<figcaption>A bowl of red grapes in an Italian ceramic bowl.
+					Darker grapes are higher in antioxidants such as resveratrol than their lighter
+					counterparts.</figcaption>
+			</figure>
+			<hr>
+			<figure class="fig3">
+				<picture>
+					<source media="(min-width: 1024px)" srcset="images/book-lrg.jpg">
+					<source media="(min-width: 960px)" srcset="images/book-med.jpg">
+					<source media="(min-width: 640px)" srcset="images/book-small.jpg">
+					<img src="images/book-xsmall.jpg" alt="Page from a book with flower drawings">
+				</picture>
+				<figcaption>Another picture from that road trip. One of my New Years Resolutions was to take more
+					pictures from my everyday life. It's easy for me to overlook the beauty in my life but taking
+					pictures keeps me present.</figcaption>
+			</figure>
+		</section>
+		<!-- end of photo gallery -->
+		<div class="back-to-top">
+			<a href="#">Back to Top</a>
+		</div>
+		<hr class="mobile-first">
+		<!-- start of Pride and Prejudice story -->
+		<article id="story" class="story">
+			<h1>Pride and Prejudice</h1>
+			<p>More than once did Elizabeth, in her ramble within the park, unexpectedly meet Mr. Darcy. She felt all
+				the perverseness of the mischance that should bring him where no one else was brought, and, to prevent
+				its ever happening again, took care to inform him at first that it was a favourite haunt of hers. How it
+				could occur a second time, therefore, was very odd! Yet it did, and even a third. It seemed like wilful
+				ill-nature, or a voluntary penance, for on these occasions it was not merely a few formal inquiries and
+				an awkward pause and then away, but he actually thought it necessary to turn back and walk with her. He
+				never said a great deal, nor did she give herself the trouble of talking or of listening much; but it
+				struck her in the course of their third rencontre that he was asking some odd unconnected
+				questions--about her pleasure in being at Hunsford, her love of solitary walks, and her opinion of Mr.
+				and Mrs. Collins’s happiness; and that in speaking of Rosings and her not perfectly understanding the
+				house, he seemed to expect that whenever she came into Kent again she would be staying there too. His
+				words seemed to imply it. Could he have Colonel Fitzwilliam in his thoughts? She supposed, if he meant
+				anything, he must mean an allusion to what might arise in that quarter. It distressed her a little, and
+				she was quite glad to find herself at the gate in the pales opposite the Parsonage.</p>
 
-            <p>'Tell me, dad,' said she, looking, I thought, a little disturbed, 'did you give Lucy, the maid, leave to
-                go out to-night?'</p>
+			<p>She was engaged one day as she walked, in perusing Jane’s last letter, and dwelling on some passages
+				which proved that Jane had not written in spirits, when, instead of being again surprised by Mr. Darcy,
+				she saw on looking up that Colonel Fitzwilliam was meeting her. Putting away the letter immediately and
+				forcing a smile, she said:</p>
 
-            <p>'Certainly not.'</p>
+			<p>“I did not know before that you ever walked this way.”</p>
 
-            <p>'She came in just now by the back door. I have no doubt that she has only been to the side gate to see
-                someone, but I think that it is hardly safe and should be stopped.'</p>
+			<p>“I have been making the tour of the park,” he replied, “as I generally do every year, and intend to close
+				it with a call at the Parsonage. Are you going much farther?”</p>
 
-            <p>'You must speak to her in the morning, or I will if you prefer it. Are you sure that everything is
-                fastened?'</p>
+			<p>“No, I should have turned in a moment.”</p>
 
-            <p>'Quite sure, dad.'</p>
+			<p>And accordingly she did turn, and they walked towards the Parsonage together.</p>
 
-            <p>'Then, good-night.' I kissed her and went up to my bedroom again, where I was soon asleep.</p>
+			<p>“Do you certainly leave Kent on Saturday?” said she.</p>
 
-            <p>I am endeavouring to tell you everything, Mr. Holmes, which may have any bearing upon the case, but I beg
-                that you will question me upon any point which I do not make clear."</p>
+			<p>“Yes--if Darcy does not put it off again. But I am at his disposal. He arranges the business just as he
+				pleases.”</p>
 
-            <p>On the contrary, your statement is singularly lucid."</p>
+			<p>“And if not able to please himself in the arrangement, he has at least pleasure in the great power of
+				choice. I do not know anybody who seems more to enjoy the power of doing what he likes than Mr. Darcy.”
+			</p>
 
-            <p>I come to a part of my story now in which I should wish to be particularly so. I am not a very heavy
-                sleeper, and the anxiety in my mind tended, no doubt, to make me even less so than usual. About two in
-                the morning, then, I was awakened by some sound in the house. It had ceased ere I was wide awake, but it
-                had left an impression behind it as though a window had gently closed somewhere. I lay listening with
-                all my ears. Suddenly, to my horror, there was a distinct sound of footsteps moving softly in the next
-                room. I slipped out of bed, all palpitating with fear, and peeped round the corner of my dressing-room
-                door.</p>
+			<p>“He likes to have his own way very well,” replied Colonel Fitzwilliam. “But so we all do. It is only that
+				he has better means of having it than many others, because he is rich, and many others are poor. I speak
+				feelingly. A younger son, you know, must be inured to self-denial and dependence.”</p>
 
-            <p>'Arthur!' I screamed, 'you villain! you thief! How dare you touch that coronet?'</p>
+			<p>“In my opinion, the younger son of an earl can know very little of either. Now seriously, what have you
+				ever known of self-denial and dependence? When have you been prevented by want of money from going
+				wherever you chose, or procuring anything you had a fancy for?”</p>
 
-            <p>The gas was half up, as I had left it, and my unhappy boy, dressed only in his shirt and trousers, was
-                standing beside the light, holding the coronet in his hands. He appeared to be wrenching at it, or
-                bending it with all his strength. At my cry he dropped it from his grasp and turned as pale as death. I
-                snatched it up and examined it. One of the gold corners, with three of the beryls in it, was missing.
-            </p>
+			<p>“These are home questions--and perhaps I cannot say that I have experienced many hardships of that
+				nature. But in matters of greater weight, I may suffer from want of money. Younger sons cannot marry
+				where they like.”</p>
 
-            <p>'You blackguard!' I shouted, beside myself with rage. 'You have destroyed it! You have dishonoured me
-                forever! Where are the jewels which you have stolen?'</p>
+			<p>“Unless where they like women of fortune, which I think they very often do.”</p>
 
-            <p>'Stolen!' he cried.</p>
+			<p>“Our habits of expense make us too dependent, and there are not many in my rank of life who can afford to
+				marry without some attention to money.”</p>
 
-            <p>'Yes, thief!' I roared, shaking him by the shoulder.</p>
+			<p>“Is this,” thought Elizabeth, “meant for me?” and she coloured at the idea; but, recovering herself, said
+				in a lively tone, “And pray, what is the usual price of an earl’s younger son? Unless the elder brother
+				is very sickly, I suppose you would not ask above fifty thousand pounds.”</p>
 
-            <p>'There are none missing. There cannot be any missing,' said he.</p>
+			<p>He answered her in the same style, and the subject dropped. To interrupt a silence which might make him
+				fancy her affected with what had passed, she soon afterwards said:</p>
 
-            <p>'There are three missing. And you know where they are. Must I call you a liar as well as a thief? Did I
-                not see you trying to tear off another piece?'</p>
+			<p>“I imagine your cousin brought you down with him chiefly for the sake of having someone at his disposal.
+				I wonder he does not marry, to secure a lasting convenience of that kind. But, perhaps, his sister does
+				as well for the present, and, as she is under his sole care, he may do what he likes with her.”</p>
 
-            <p>'You have called me names enough,' said he, 'I will not stand it any longer. I shall not say another word
-                about this business, since you have chosen to insult me. I will leave your house in the morning and make
-                my own way in the world.'</p>
+			<p>“No,” said Colonel Fitzwilliam, “that is an advantage which he must divide with me. I am joined with him
+				in the guardianship of Miss Darcy.”</p>
 
-            <p>'You shall leave it in the hands of the police!' I cried half-mad with grief and rage. 'I shall have this
-                matter probed to the bottom.'</p>
+			<p>“Are you indeed? And pray what sort of guardians do you make? Does your charge give you much trouble?
+				Young ladies of her age are sometimes a little difficult to manage, and if she has the true Darcy
+				spirit, she may like to have her own way.”</p>
 
-            <p>'You shall learn nothing from me,' said he with a passion such as I should not have thought was in his
-                nature. 'If you choose to call the police, let the police find what they can.'</p>
+			<p>As she spoke she observed him looking at her earnestly; and the manner in which he immediately asked her
+				why she supposed Miss Darcy likely to give them any uneasiness, convinced her that she had somehow or
+				other got pretty near the truth. She directly replied:</p>
 
-            <p>By this time the whole house was astir, for I had raised my voice in my anger. Mary was the first to rush
-                into my room, and, at the sight of the coronet and of Arthur's face, she read the whole story and, with
-                a scream, fell down senseless on the ground. I sent the house-maid for the police and put the
-                investigation into their hands at once. When the inspector and a constable entered the house, Arthur,
-                who had stood sullenly with his arms folded, asked me whether it was my intention to charge him with
-                theft. I answered that it had ceased to be a private matter, but had become a public one, since the
-                ruined coronet was national property. I was determined that the law should have its way in everything.
-            </p>
+			<p>“You need not be frightened. I never heard any harm of her; and I dare say she is one of the most
+				tractable creatures in the world. She is a very great favourite with some ladies of my acquaintance,
+				Mrs. Hurst and Miss Bingley. I think I have heard you say that you know them.”</p>
 
-            <p>'At least,' said he, 'you will not have me arrested at once. It would be to your advantage as well as
-                mine if I might leave the house for five minutes.'</p>
+			<p>“I know them a little. Their brother is a pleasant gentlemanlike man--he is a great friend of Darcy’s.”
+			</p>
 
-            <p>'That you may get away, or perhaps that you may conceal what you have stolen,' said I. And then,
-                realising the dreadful position in which I was placed, I implored him to remember that not only my
-                honour but that of one who was far greater than I was at stake; and that he threatened to raise a
-                scandal which would convulse the nation. He might avert it all if he would but tell me what he had done
-                with the three missing stones.</p>
+			<p>“Oh! yes,” said Elizabeth drily; “Mr. Darcy is uncommonly kind to Mr. Bingley, and takes a prodigious
+				deal of care of him.”</p>
 
-            <p>'You may as well face the matter,' said I; 'you have been caught in the act, and no confession could make
-                your guilt more heinous. If you but make such reparation as is in your power, by telling us where the
-                beryls are, all shall be forgiven and forgotten.'</p>
+			<p>“Care of him! Yes, I really believe Darcy does take care of him in those points where he most wants care.
+				From something that he told me in our journey hither, I have reason to think Bingley very much indebted
+				to him. But I ought to beg his pardon, for I have no right to suppose that Bingley was the person meant.
+				It was all conjecture.”</p>
 
-            <p>'Keep your forgiveness for those who ask for it,' he answered, turning away from me with a sneer. I saw
-                that he was too hardened for any words of mine to influence him. There was but one way for it. I called
-                in the inspector and gave him into custody. A search was made at once not only of his person but of his
-                room and of every portion of the house where he could possibly have concealed the gems; but no trace of
-                them could be found, nor would the wretched boy open his mouth for all our persuasions and our threats.
-                This morning he was removed to a cell, and I, after going through all the police formalities, have
-                hurried round to you to implore you to use your skill in unravelling the matter. The police have openly
-                confessed that they can at present make nothing of it. You may go to any expense which you think
-                necessary. I have already offered a reward of 1000 pounds. My God, what shall I do! I have lost my
-                honour, my gems, and my son in one night. Oh, what shall I do!"</p>
+			<p>“What is it you mean?”</p>
 
-            <p>He put a hand on either side of his head and rocked himself to and fro, droning to himself like a child
-                whose grief has got beyond words.</p>
+			<p>“It is a circumstance which Darcy could not wish to be generally known, because if it were to get round
+				to the lady’s family, it would be an unpleasant thing.”</p>
 
-            <p>Sherlock Holmes sat silent for some few minutes, with his brows knitted and his eyes fixed upon the fire.
-            </p>
+			<p>“You may depend upon my not mentioning it.”</p>
 
-            <p>Do you receive much company?" he asked.</p>
+			<p>“And remember that I have not much reason for supposing it to be Bingley. What he told me was merely
+				this: that he congratulated himself on having lately saved a friend from the inconveniences of a most
+				imprudent marriage, but without mentioning names or any other particulars, and I only suspected it to be
+				Bingley from believing him the kind of young man to get into a scrape of that sort, and from knowing
+				them to have been together the whole of last summer.”</p>
 
-            <p>None save my partner with his family and an occasional friend of Arthur's. Sir George Burnwell has been
-                several times lately. No one else, I think."</p>
+			<p>“Did Mr. Darcy give you reasons for this interference?”</p>
 
-            <p>Do you go out much in society?"</p>
-        </article>
-        <!-- end of Sherlock Holmes story -->
-    </main>
-    <!-- end of main content -->
-    <div class="back-to-top">
-        <a href="#">Back to Top</a>
-    </div>
-    <hr class="mobile-first">
-    <!-- start of contact form -->
-    <section id="contact" class="form-container">
-        <h1>Get in Touch</h1>
-        <br class="mobile-first"><br class="mobile-first">
-        <div>
-            <form>
-                <fieldset>
-                    <legend>&nbsp;&nbsp; F O R M &nbsp;G O E S &nbsp; H E R E&nbsp;&nbsp;</legend>
-                    <br class="mobile-first"><br class="mobile-first">
-                    <p>
-                        &nbsp;L E F T&nbsp;&nbsp;E M P T Y&nbsp;&nbsp;O N&nbsp;&nbsp;P U R P O S E&nbsp;
-                    </p>
-                    <br class="mobile-first"><br class="mobile-first">
-                </fieldset>
-            </form>
-        </div>
-    </section>
-    <!-- end of contact form -->
-    <!-- start of footer -->
-    <footer>
-        <br class="mobile-first"><br class="mobile-first">
-        <p> &copy; 2019 Lyan Kent</p>
-    </footer>
-    <div class="back-to-top">
-        <a href="#">Back to Top</a>
-    </div>
-    <!-- end of footer -->
-    <br class="mobile-first"><br class="mobile-first">
-    <!-- start of javascript for nav toggle -->
-    <script>
-        let mainNav = document.getElementById('js-menu');
-        let navBarToggle = document.getElementById('js-navbar-toggle');
-        let symbolToggle = document.getElementById('symbol-toggle');
+			<p>“I understood that there were some very strong objections against the lady.”</p>
+
+			<p>“And what arts did he use to separate them?”</p>
+
+			<p>“He did not talk to me of his own arts,” said Fitzwilliam, smiling. “He only told me what I have now told
+				you.”</p>
+		</article>
+		<!-- end of Pride and Prejudice story -->
+	</main>
+	<!-- end of main content -->
+	<div class="back-to-top">
+		<a href="#">Back to Top</a>
+	</div>
+	<hr class="mobile-first">
+	<!-- start of contact form -->
+	<section id="contact" class="form-container">
+		<h1>Get in Touch</h1>
+		<br class="mobile-first"><br class="mobile-first">
+		<div>
+			<form class="contact" method="POST" action="https://formspree.io/shalinidc97@gmail.com">
+				<fieldset>
+					<legend>
+						Please Feel Free to Contact Me
+					</legend>
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email">
+					<p> </p>
+					<fieldset>
+						<legend>
+							Do you want a reply?
+						</legend>
+						<label id="yes_no_radio">I would like a reply</label>
+						<br>
+						<input type="radio" name="yes_no" checked>Yes
+						<br>
+						<input type="radio" name="yes_no">No
+					</fieldset>
+					<br>
+					<label for="message">Message</label>
+					<textarea name="message" id="message"></textarea>
+					<br>
+					<br>
+					<button type="submit">Send Message</button>
+				</fieldset>
+			</form>
+		</div>
+	</section>
+	<!-- end of contact form -->
+	<!-- start of footer -->
+	<footer class="footer">
+		<br class="mobile-first"><br class="mobile-first">
+		<div class="content">
+			<p class="copyright">&copy; Shalini Das Chaudhuri, 2019.
+		</div>
+	</footer>
+	<div class="back-to-top">
+		<a href="#">Back to Top</a>
+	</div>
+	<!-- end of footer -->
+	<br class="mobile-first"><br class="mobile-first">
+	<!-- start of javascript for nav toggle -->
+	<script>
+		let mainNav = document.getElementById('js-menu');
+		let navBarToggle = document.getElementById('js-navbar-toggle');
+		let symbolToggle = document.getElementById('symbol-toggle');
 
 
-        navBarToggle.addEventListener('click', function () {
-            mainNav.classList.toggle('active');
-            if (symbolToggle.classList.contains('fa-bars')) {
-                symbolToggle.classList.remove('fa-bars');
-                symbolToggle.classList.add('fa-times');
-            } else {
-                symbolToggle.classList.remove('fa-times');
-                symbolToggle.classList.add('fa-bars');
-            }
-        });
-    </script>
-    <!-- end of javascript for nav toggle -->
+		navBarToggle.addEventListener('click', function () {
+			mainNav.classList.toggle('active');
+			if (symbolToggle.classList.contains('fa-bars')) {
+				symbolToggle.classList.remove('fa-bars');
+				symbolToggle.classList.add('fa-times');
+			} else {
+				symbolToggle.classList.remove('fa-times');
+				symbolToggle.classList.add('fa-bars');
+			}
+		});
+	</script>
+	<!-- end of javascript for nav toggle -->
 </body>
 
 </html>
