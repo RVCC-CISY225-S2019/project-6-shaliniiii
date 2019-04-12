@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/nav-style.css">
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -264,11 +265,14 @@
 						<legend>
 							Do you want a reply?
 						</legend>
-						<label id="yes_no_radio">I would like a reply</label>
+
 						<br>
-						<input type="radio" name="yes_no" checked>Yes
+						<input type="radio" name="yes_no" checked value="yes" id="yes">
+						<label for="yes">Yes, I would like a reply</label>
 						<br>
-						<input type="radio" name="yes_no">No
+						<br>
+						<input type="radio" name="yes_no" value="no" id="no">
+						<label for="no">No, I would not like a reply</label>
 					</fieldset>
 					<br>
 					<label for="message">Message</label>
