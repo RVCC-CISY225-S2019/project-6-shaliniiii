@@ -10,16 +10,13 @@ img {
 fieldset {
     width: auto;
     height: auto;
-    border : solid 0.1em;
+    border: solid 0.1em;
     box-sizing: border-box;
-    }
+}
 
 legend {
-    display: block;
-    padding-left: 4px;
-    padding-right: 4px;
-    border: 10em;  
-    border-color: #000000;
+    color: rgb(136, 12, 43);
+    font-size: 120%;
 }
 
 textarea {
@@ -29,9 +26,9 @@ textarea {
 
 textarea:focus {
     background: rgb(202, 202, 202);
-  }
+}
 
-input:focus{
+input:focus {
     background: rgb(202, 202, 202);
 }
 
